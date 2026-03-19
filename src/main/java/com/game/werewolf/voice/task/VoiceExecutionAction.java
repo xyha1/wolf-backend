@@ -1,0 +1,14 @@
+package com.game.werewolf.voice.task;
+
+public enum VoiceExecutionAction {
+    ADD_CONSUMER,
+    REMOVE_CONSUMER,
+    PAUSE_PRODUCER,
+    RESUME_PRODUCER,
+    ENSURE_PRODUCER_EXISTS,
+    RELEASE_PRODUCER,
+    UPDATE_PUBLISH_ACL,
+    UPDATE_CONSUME_MODE,
+    SYNC_OBSERVE_STREAM,
+    UPDATE_UI_PERMISSION
+}

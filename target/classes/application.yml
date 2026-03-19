@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+rtc:
+  bridge:
+    mode: http
+    base-url: http://127.0.0.1:3100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
